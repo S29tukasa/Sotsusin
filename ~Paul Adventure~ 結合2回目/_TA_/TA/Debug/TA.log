@@ -1,0 +1,32 @@
+﻿2018/09/03 10:35:45 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\dere\Desktop\9_2\_TA_\TA\TA.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Main.cpp
+         Main.cpp
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\position.h(58): warning C4244: '初期化中' : 'double' から 'const float' への変換です。データが失われる可能性があります。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(376): warning C4305: '引数' : 'double' から 'FLOAT' へ切り詰めます。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(566): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(570): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(588): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(592): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(595): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(610): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(614): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(955): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(1049): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(1052): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\main.cpp(1064): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dere\Desktop\9_2\_TA_\Debug\TA.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dere\Desktop\9_2\_TA_\Debug\TA.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dere\Desktop\9_2\_TA_\Debug\TA.lib" /MACHINE:X86 Debug\cCommon.obj
+         Debug\DebugText.obj
+         Debug\DX9Mesh.obj
+         Debug\Main.obj
+         Debug\Sound.obj
+         Debug\Sprite.obj
+         Debug\Sprite2D.obj
+         TA.vcxproj -> C:\Users\dere\Desktop\9_2\_TA_\Debug\TA.exe
+     1>プロジェクト "C:\Users\dere\Desktop\9_2\_TA_\TA\TA.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.93

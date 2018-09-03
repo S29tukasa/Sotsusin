@@ -1,0 +1,76 @@
+﻿2018/09/03 9:58:51 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\dere\Desktop\9_2\_TA_\TA\TA.vcxproj" (Build ターゲット)。
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"VS" /T vs_5_0 /Fo "C:\Users\dere\Desktop\9_2\_TA_\Release\DebugText.cso" Shader\DebugText.hlsl 
+         compilation object save succeeded; see C:\Users\dere\Desktop\9_2\_TA_\Release\DebugText.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"VS_Main" /T vs_5_0 /Fo "C:\Users\dere\Desktop\9_2\_TA_\Release\Mesh.cso" Shader\Mesh.hlsl 
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Mesh.hlsl(39,2-32): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Mesh.hlsl(43,2-27): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Mesh.hlsl(45,9-33): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Mesh.hlsl(46,21-37): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Mesh.hlsl(53,30-44): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Mesh.hlsl(81,2-32): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Mesh.hlsl(85,2-27): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Mesh.hlsl(87,9-33): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Mesh.hlsl(88,21-37): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Mesh.hlsl(95,30-44): warning X3206: implicit truncation of vector type
+         
+         compilation object save succeeded; see C:\Users\dere\Desktop\9_2\_TA_\Release\Mesh.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"VS" /Fo "C:\Users\dere\Desktop\9_2\_TA_\Release\Simple.cso" Shader\Simple.hlsl 
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Simple.hlsl(43,18-44): warning X3206: 'mul': implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Simple.hlsl(44,2-27): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Simple.hlsl(46,9-33): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Simple.hlsl(47,21-37): warning X3206: implicit truncation of vector type
+     1>C:\Users\dere\Desktop\9_2\_TA_\TA\Shader\Simple.hlsl(71,29-43): warning X3206: implicit truncation of vector type
+         
+         compilation object save succeeded; see C:\Users\dere\Desktop\9_2\_TA_\Release\Simple.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"VS_Main" /T vs_5_0 /Fo "C:\Users\dere\Desktop\9_2\_TA_\Release\Sprite2D.cso" Shader\Sprite2D.hlsl 
+         compilation object save succeeded; see C:\Users\dere\Desktop\9_2\_TA_\Release\Sprite2D.cso
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\cCommon.cpp Source\DebugText.cpp Source\DX9Mesh.cpp Source\Main.cpp Source\Sound.cpp Source\Sprite.cpp Source\Sprite2D.cpp
+         cCommon.cpp
+         DebugText.cpp
+     1>Source\DebugText.cpp(317): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         DX9Mesh.cpp
+     1>Source\DX9Mesh.cpp(283): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>Source\DX9Mesh.cpp(522): warning C4305: '引数' : 'double' から 'FLOAT' へ切り詰めます。
+     1>Source\DX9Mesh.cpp(526): warning C4305: '引数' : 'double' から 'FLOAT' へ切り詰めます。
+     1>Source\DX9Mesh.cpp(529): warning C4305: '引数' : 'double' から 'FLOAT' へ切り詰めます。
+     1>Source\DX9Mesh.cpp(532): warning C4305: '引数' : 'double' から 'FLOAT' へ切り詰めます。
+         Main.cpp
+     1>c:\users\dere\desktop\9_2\_ta_\ta\source\Position.h(58): warning C4244: '初期化中' : 'double' から 'const float' への変換です。データが失われる可能性があります。
+     1>Source\Main.cpp(376): warning C4305: '引数' : 'double' から 'FLOAT' へ切り詰めます。
+     1>Source\Main.cpp(566): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Source\Main.cpp(570): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Source\Main.cpp(588): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Source\Main.cpp(592): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Source\Main.cpp(595): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Source\Main.cpp(610): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Source\Main.cpp(614): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Source\Main.cpp(954): warning C4305: '-=' : 'double' から 'float' へ切り詰めます。
+     1>Source\Main.cpp(1048): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>Source\Main.cpp(1051): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>Source\Main.cpp(1063): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+         Sound.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: '__useHeader' : マクロが再定義されました。
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h(2886) : '__useHeader' の前の定義を確認してください
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: '__on_failure' : マクロが再定義されました。
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h(2896) : '__on_failure' の前の定義を確認してください
+         Sprite.cpp
+         Sprite2D.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dere\Desktop\9_2\_TA_\Release\TA.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dere\Desktop\9_2\_TA_\Release\TA.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dere\Desktop\9_2\_TA_\Release\TA.lib" /MACHINE:X86 /SAFESEH Release\cCommon.obj
+         Release\DebugText.obj
+         Release\DX9Mesh.obj
+         Release\Main.obj
+         Release\Sound.obj
+         Release\Sprite.obj
+         Release\Sprite2D.obj
+         コード生成しています。
+         コード生成が終了しました。
+         TA.vcxproj -> C:\Users\dere\Desktop\9_2\_TA_\Release\TA.exe
+     1>プロジェクト "C:\Users\dere\Desktop\9_2\_TA_\TA\TA.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.48
